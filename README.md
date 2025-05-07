@@ -11,4 +11,12 @@ Given a `.wav` audio file (spoken English), predict the **grammar score** of the
 ---
 
 ## 📂 Project Structure
-
+GrammarScoringEngine/
+├── notebooks/ → main code notebook
+├── audios/ → training audio
+├── audios_test/ → test audio
+├── submission.csv → final output
+├── final_grammar_model.pkl → saved model
+├── requirements.txt
+├── README.md
+└── .gitignore
